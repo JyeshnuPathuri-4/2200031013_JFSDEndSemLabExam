@@ -1,0 +1,11 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.klef.jfsd.models.Student" table="student">
+        <id name="sid" column="tid"/>
+        <property name="sname" column="tname"/>
+        <property name="sfee" column="tfee"/>
+    </class>
+</hibernate-mapping>
+
